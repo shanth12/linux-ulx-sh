@@ -2,18 +2,19 @@
 
 ## Learning Order
 
-**Total estimated time: 73–99 days (2 hrs/day)**
+**Total estimated time: 81–109 days (2 hrs/day)**
 
-1. **Web Fundamentals** (Days 1-14)
-2. **Databases** (Days 15-25)
-3. **Docker** (Days 26-34)
-4. **GitHub Actions** (Days 35-39)
-5. **Node.js** (Days 40-52)
-6. **Flask** (Days 53-61)
-7. **Kubernetes** (Days 62-74)
-8. **Jenkins** (Days 75-83)
-9. **Cloud-native / CI/CD** (Days 84-93)
-10. **Full-stack and dev tools** (Days 94-99)
+1. **Git & Version Control** (Days 1-5)
+2. **Web Fundamentals** (Days 6-19)
+3. **Databases** (Days 20-30)
+4. **Docker** (Days 31-39)
+5. **GitHub Actions** (Days 40-44)
+6. **Node.js** (Days 45-57)
+7. **Flask** (Days 58-66)
+8. **Kubernetes** (Days 67-79)
+9. **Jenkins** (Days 80-88)
+10. **Cloud-native / CI/CD** (Days 89-98)
+11. **Full-stack and dev tools** (Days 99-109)
 
 ---
 
@@ -21,7 +22,24 @@
 
 > Start with the fundamentals first, then move into containers and CI/CD basics.
 
-### 1. Web Fundamentals (10–14 days at 2 hrs/day)
+### 1. Git & Version Control (4–6 days at 2 hrs/day)
+**Documentation:**
+- Git official docs: https://git-scm.com/doc
+- Git tutorial: https://git-scm.com/book/en/v2
+- GitHub Docs: https://docs.github.com/en
+- Atlassian Git Tutorials: https://www.atlassian.com/git/tutorials
+
+**Video Resources:**
+- [Git & GitHub Crash Course](https://www.youtube.com/watch?v=SWYqp7iY_Tc) - Traversy Media (1 hr)
+- [Git Complete Guide](https://www.youtube.com/watch?v=apGV9Kg7ics) - Kunal Kushwaha (2 hrs)
+- [GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=tRZGeaHPozo) - Amigoscode (20 min)
+- [Git for Beginners](https://www.udemy.com/course/git-and-github-bootcamp/) - Udemy (11 hrs) ⭐ **BEST UDEMY**
+- [The Git & GitHub Bootcamp](https://www.udemy.com/course/git-github-complete-guide/) - Udemy (10 hrs)
+- [Complete Git Guide](https://www.udemy.com/course/complete-git-guide/) - Udemy (9 hrs)
+
+**Recommended environment:** VS Code with Git extension, GitHub account, Terminal/PowerShell, GitHub Desktop or GitKraken.
+
+### 2. Web Fundamentals (10–14 days at 2 hrs/day)
 **Documentation:**
 - MDN Web Docs: https://developer.mozilla.org/
 - HTML reference: https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -39,7 +57,7 @@
 
 **Recommended environment:** VS Code, Chrome/Firefox DevTools, Live Server extension, Node.js with npm for frontend tooling.
 
-### 2. Databases (8–10 days at 2 hrs/day)
+### 3. Databases (8–10 days at 2 hrs/day)
 **Documentation:**
 - PostgreSQL docs: https://www.postgresql.org/docs/
 - MySQL docs: https://dev.mysql.com/doc/
@@ -57,7 +75,7 @@
 
 **Recommended environment:** Docker containers for databases, pgAdmin, MySQL Workbench, MongoDB Atlas / Compass, DB Browser for SQLite, RedisInsight.
 
-### 3. Docker (6–8 days at 2 hrs/day)
+### 4. Docker (6–8 days at 2 hrs/day)
 **Documentation:**
 - Docker documentation: https://docs.docker.com/
 - Docker getting started: https://docs.docker.com/get-started/
@@ -73,7 +91,7 @@
 
 **Recommended environment:** Docker Desktop or Docker Engine on Linux, Play with Docker / Katacoda for browser labs, VS Code Docker extension.
 
-### 4. GitHub Actions (4–5 days at 2 hrs/day)
+### 5. GitHub Actions (4–5 days at 2 hrs/day)
 **Documentation:**
 - GitHub Actions docs: https://docs.github.com/en/actions
 - GitHub Actions workflows: https://docs.github.com/en/actions/using-workflows
@@ -92,7 +110,7 @@
 
 > Build on the basics with backend frameworks, orchestration, and automation.
 
-### 5. Node.js (10–12 days at 2 hrs/day)
+### 6. Node.js (10–12 days at 2 hrs/day)
 **Documentation:**
 - Node.js official docs: https://nodejs.org/en/docs/
 - Node.js getting started: https://nodejs.org/en/docs/guides/getting-started-guide/
@@ -108,7 +126,7 @@
 
 **Recommended environment:** VS Code, nvm for Node version management, npm or yarn, Postman / HTTPie for API testing.
 
-### 6. Flask (6–8 days at 2 hrs/day)
+### 7. Flask (6–8 days at 2 hrs/day)
 **Documentation:**
 - Flask documentation: https://flask.palletsprojects.com/en/latest/
 - Flask quickstart: https://flask.palletsprojects.com/en/latest/quickstart/
@@ -124,7 +142,7 @@
 
 **Recommended environment:** Python 3, venv, VS Code with Python extension, Flask Debug Toolbar, sqlite or PostgreSQL backend.
 
-### 7. Kubernetes (K8s) (10–12 days at 2 hrs/day)
+### 8. Kubernetes (K8s) (10–12 days at 2 hrs/day)
 **Documentation:**
 - Kubernetes official docs: https://kubernetes.io/docs/
 - Kubernetes tutorials: https://kubernetes.io/docs/tutorials/
@@ -140,7 +158,7 @@
 
 **Recommended environment:** minikube / kind / k3s, Rancher Desktop, Docker Desktop with Kubernetes enabled, Lens, kubectl.
 
-### 8. Jenkins (6–8 days at 2 hrs/day)
+### 9. Jenkins (6–8 days at 2 hrs/day)
 **Documentation:**
 - Jenkins documentation: https://www.jenkins.io/doc/
 - Jenkins getting started: https://www.jenkins.io/doc/book/installing/
@@ -162,7 +180,7 @@
 
 > Focus on cloud-native architecture, production-grade pipelines, and fast reference tools.
 
-### 9. Cloud-native / CI/CD (8–10 days at 2 hrs/day)
+### 10. Cloud-native / CI/CD (8–10 days at 2 hrs/day)
 **Documentation:**
 - GitHub Actions marketplace: https://github.com/marketplace?type=actions
 - Kubernetes advanced concepts: https://kubernetes.io/docs/concepts/
@@ -178,7 +196,7 @@
 
 **Recommended environment:** GitHub CI pipelines, Kubernetes clusters, cloud providers (AWS/GCP/Azure) sandbox or local cluster, Terraform or Helm for infrastructure as code.
 
-### 10. Full-stack and dev tools (4–6 days at 2 hrs/day)
+### 11. Full-stack and dev tools (4–6 days at 2 hrs/day)
 **Documentation:**
 - FreeCodeCamp: https://www.freecodecamp.org/
 - Codecademy: https://www.codecademy.com/
